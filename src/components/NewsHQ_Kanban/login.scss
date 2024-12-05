@@ -1,0 +1,18 @@
+#logo-v3 {
+    width: 100px;
+    height: 100px;
+    background: url("../../assets/images/icons/logo.svg") no-repeat center center;
+    background-size: contain;
+}
+
+.template-minimal .template-minimal--width-normal {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.template-minimal__wrap {
+    max-width: 100%;
+    min-width: 100%;
+}

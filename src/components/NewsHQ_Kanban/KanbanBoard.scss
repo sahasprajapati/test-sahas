@@ -1,0 +1,57 @@
+.kanban-root {
+    @apply text-black box-border;
+
+    overflow-x: auto;
+}
+
+.column-scroll-style {}
+
+.column-scroll-style::-webkit-scrollbar {
+    width: 4px;
+}
+
+.column-scroll-style::-webkit-scrollbar:horizontal {
+    height: 8px;
+}
+
+.column-scroll-style::-webkit-scrollbar-thumb:vertical {
+    @apply bg-violet-700 rounded-xl;
+}
+
+
+
+.task::-webkit-scrollbar-thumb {
+    @apply bg-sky-500 rounded-xl;
+}
+
+.swal-modal {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(244, 246, 248, 0.3)), linear-gradient(#ffffff, #ffffff);
+    box-shadow: 0 2px 16px 0 rgba(33, 43, 54, 0.08), 0 0 0 1px rgba(6, 44, 82, 0.1);
+    text-align: left;
+    padding-left: 32px;
+    padding-right: 28px;
+    padding-top: 15px !important;
+
+}
+
+.swal-title {
+    text-align: left;
+    padding-left: 40px;
+    height: 40px;
+    font-size: 24px;
+    font-family: ProximaBold;
+    color: #1e1e1e;
+    padding-top: 11px;
+    letter-spacing: 0;
+}
+
+.swal-title:before {
+    content: "";
+    width: 30px;
+    height: 30px;
+    background: url('../../assets/images/icons/logo.svg') no-repeat center center / contain;
+    position: absolute;
+    left: 0;
+    right: 5;
+    top: 14px;
+}

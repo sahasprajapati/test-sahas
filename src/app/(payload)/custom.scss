@@ -1,0 +1,19 @@
+.search-filter__input {
+  box-shadow:
+    0 2px 3px #0002040d,
+    0 10px 4px -8px #00020405;
+  font-family: var(--font-body);
+  width: 100%;
+  border: 1px solid var(--theme-elevation-150);
+  background: var(--theme-input-bg);
+  color: var(--theme-elevation-800);
+  border-radius: 0;
+  font-size: 1rem;
+  height: 3.8461538462rem;
+  line-height: 1.9230769231rem;
+  -webkit-appearance: none;
+  box-shadow: none;
+  padding: 0.9615384615rem 1.4423076923rem 0.9615384615rem 3.8461538462rem;
+  background-color: var(--theme-elevation-50);
+  border: none;
+}

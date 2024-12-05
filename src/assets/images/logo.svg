@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="243px" height="243px" viewBox="0 0 243 243" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>NewsHQ</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="121.5" cy="121.5" r="121.5"></circle>
+    </defs>
+    <g id="🛠️-Lab" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2" transform="translate(-54.000000, -54.000000)">
+            <g id="NewsHQ" transform="translate(175.500000, 175.500000) rotate(-45.000000) translate(-175.500000, -175.500000) translate(54.000000, 54.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Oval-Copy-2" fill="#E62E37" xlink:href="#path-1"></use>
+                <polygon id="Rectangle-Copy" fill="#212B36" mask="url(#mask-2)" points="138.068182 132.545455 225.196233 219.673506 138.068182 253.659949"></polygon>
+                <circle id="Oval-2-Copy" fill="#E62E37" mask="url(#mask-2)" cx="168.054683" cy="215.174519" r="8.28145506"></circle>
+                <path d="M121.5,209.863636 C72.6981112,209.863636 33.1363636,170.301889 33.1363636,121.5 C33.1363636,72.6981112 72.6981112,33.1363636 121.5,33.1363636 C170.301889,33.1363636 209.863636,72.6981112 209.863636,121.5 C209.863636,170.301889 170.301889,209.863636 121.5,209.863636 Z M121.5,171.204545 C148.951062,171.204545 171.204545,148.951062 171.204545,121.5 C171.204545,94.0489375 148.951062,71.7954545 121.5,71.7954545 C94.0489375,71.7954545 71.7954545,94.0489375 71.7954545,121.5 C71.7954545,148.951062 94.0489375,171.204545 121.5,171.204545 Z" id="Combined-Shape" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                <polygon id="Rectangle" fill="#F9FAFB" mask="url(#mask-2)" points="104.931818 132.545455 138.068182 132.545455 138.068182 243 104.931818 243"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

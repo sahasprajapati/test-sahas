@@ -1,0 +1,104 @@
+@import '~@payloadcms/ui/scss/app.scss';
+
+.pageset-column {
+  flex: 1;
+  width: 100%;
+  margin: 0;
+  gap: base(0.5);
+  padding: base(0.5);
+  border-radius: base(0.5);
+  display: flex;
+  align-items: center;
+
+  scrollbar-width: none;
+  background-color: var(--theme-elevation-50);
+
+  &__grip {
+    cursor: move; /* fallback if grab cursor is unsupported */
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: base(1);
+
+    & > h5 {
+      margin-bottom: 0 !important;
+    }
+  }
+
+  &__draggable {
+    opacity: 60%;
+  }
+
+  &__add-content-button {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-top: base(0.5);
+    padding-bottom: base(0.5);
+    padding-left: base(0.5);
+    padding-right: base(0.5);
+    margin-top: base(0.5);
+    border-radius: base(0.25);
+    border: none;
+    background-color: var(--theme-elevation-50);
+    transition: all 0.02s ease-in-out;
+    cursor: pointer;
+
+    & > p {
+      margin: 0;
+    }
+
+    &:hover {
+      border-color: var(--theme-elevation-200);
+      background: var(--theme-elevation-150);
+    }
+  }
+  &__scrollable {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    min-height: 1px;
+    max-height: 78vh;
+    width: 100%;
+  }
+  &__grid-container {
+    display: grid;
+    grid-template-columns: repeat(
+      2,
+      1fr
+    ); /* Defines two columns, each 1 fraction of the available space */
+    gap: 0.5rem; /* Optional: Add spacing between elements */
+    align-items: center; /* Optional: Center elements vertically within their rows */
+  }
+
+  &__grid-container > div {
+    /* Style your elements here */
+  }
+
+  &__block_container {
+    // background-color: var(--theme-elevation-50);
+    padding-left: 2em;
+    padding-right: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid var(--theme-elevation-150);
+    padding: 2em;
+    overflow-x: auto;
+    min-height: 200px;
+    border-radius: 1em;
+  }
+}

@@ -1,0 +1,27 @@
+.description-article {
+  #field-description {
+    font-size: large;
+    font-weight: 600;
+    border: none;
+  }
+  .textarea-outer {
+    border: none;
+  }
+}
+.title-article {
+  #field-title {
+    font-size: xx-large;
+    font-weight: bold;
+    border: none;
+  }
+}
+
+.content-field-disabled {
+  pointer-events: none;
+  opacity: 40%;
+}
+
+.content-field-enabled {
+  pointer-events: auto;
+  opacity: 100%;
+}

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="284" height="284" viewBox="0 0 284 284">
+    <defs>
+        <circle id="a" cx="100" cy="100" r="100"/>
+        <path id="c" d="M19.88 21.547l1.667-1.667-3.88-3.88 3.88-3.88-1.666-1.667L16 14.333l-3.88-3.88-1.667 1.667 3.88 3.88-3.88 3.88 1.666 1.667L16 17.667z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="rotate(-45 170.71 70.71)">
+        <mask id="b" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+        <use fill="#FFF" xlink:href="#a"/>
+        <path fill="#C4CDD5" d="M113.636 109.09l71.71 71.711-71.71 27.973z" mask="url(#b)"/>
+        <g mask="url(#b)">
+            <g transform="rotate(45 -117.796 245.752)">
+                <path d="M0 0h32v32H0z"/>
+                <mask id="d" fill="#fff">
+                    <use xlink:href="#c"/>
+                </mask>
+                <g mask="url(#d)">
+                    <path fill="#FFF" d="M0 0h133v53H0z"/>
+                </g>
+            </g>
+        </g>
+        <path fill="#F4F6F8" d="M100 172.727c-40.166 0-72.727-32.56-72.727-72.727 0-40.166 32.56-72.727 72.727-72.727 40.166 0 72.727 32.56 72.727 72.727 0 40.166-32.56 72.727-72.727 72.727zm0-31.818c22.593 0 40.91-18.316 40.91-40.909S122.592 59.09 100 59.09c-22.593 0-40.91 18.317-40.91 40.91 0 22.593 18.317 40.91 40.91 40.91z" mask="url(#b)"/>
+        <path fill="#F4F6F8" d="M86.364 109.09h27.272V200H86.364z" mask="url(#b)"/>
+    </g>
+</svg>

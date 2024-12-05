@@ -1,0 +1,147 @@
+.ProseMirror {
+
+  /* Placeholder Styles */
+  .is-empty::before {
+    @apply text-black/40 dark:text-white/40 float-left h-0 pointer-events-none w-full;
+  }
+
+  &.ProseMirror-focused {
+
+    /* Slashmenu Placeholder */
+    >p.has-focus.is-empty::before {
+      content: 'Type  /  to browse options';
+    }
+
+    >[data-type='columns']>[data-type='column']>p.is-empty.has-focus::before {
+      content: 'Type  /  to browse options';
+    }
+
+    >[dir='rtl']>p.has-focus.is-empty::before {
+      text-align: right;
+    }
+  }
+
+  /* Default Placeholder */
+  &>.is-editor-empty::before {
+    content: 'Click here to start writing …';
+  }
+
+  /* Blockquote Placeholder */
+  blockquote .is-empty:not(.is-editor-empty):first-child:last-child::before {
+    content: 'Enter a quote';
+  }
+
+  blockquote+figcaption.is-empty:not(.is-editor-empty)::before {
+    content: 'Author';
+  }
+
+  [data-placeholder][data-suggestion]::before,
+  [data-placeholder][data-suggestion] *::before {
+    content: none !important;
+  }
+}
+
+/* Additional languages  EN*/
+.ProseMirror:lang(en) {
+
+  /* Placeholder Styles */
+  .is-empty::before {
+    content: 'Click here to start writing …';
+  }
+
+  &:lang(ar)>p.has-focus.is-empty::before {
+    content: 'Type  /  to browse options';
+  }
+}
+
+/* Additional languages  AR*/
+.ProseMirror:lang(ar) {
+
+  /* Placeholder Styles */
+  .is-empty::before {
+    content: 'انقر هنا للبدء في الكتابة…';
+  }
+
+  &:lang(ar)>p.has-focus.is-empty::before {
+    content: 'اكتب / لاستعراض الخيارات';
+  }
+}
+
+/* Additional languages  FA*/
+.ProseMirror:lang(fa) {
+
+  /* Placeholder Styles */
+  .is-empty::before {
+    content: 'برای شروع نوشتن اینجا کلیک کنید…';
+  }
+
+  &:lang(ar)>p.has-focus.is-empty::before {
+    content: 'برای مرور گزینه ها، / را تایپ کنید';
+  }
+}
+
+/* Additional languages  FR*/
+.ProseMirror:lang(fr) {
+
+  /* Placeholder Styles */
+  .is-empty::before {
+    content: 'Cliquez ici pour commencer à écrire…';
+  }
+
+  &:lang(ar)>p.has-focus.is-empty::before {
+    content: 'Tapez / pour parcourir les options';
+  }
+}
+
+/* Additional languages ES*/
+
+.ProseMirror:lang(es) {
+
+  /* Placeholder Styles */
+  .is-empty::before {
+    content: 'Haz clic aquí para empezar a escribir…';
+  }
+
+  >p.has-focus.is-empty::before {
+    content: 'Escriba / para buscar opciones';
+  }
+}
+
+/* Additional languages RU*/
+.ProseMirror:lang(ru) {
+
+  /* Placeholder Styles */
+  .is-empty::before {
+    content: 'Нажмите здесь, чтобы начать писать…';
+  }
+
+  >p.has-focus.is-empty::before {
+    content: 'Введите / для просмотра вариантов';
+  }
+}
+
+/* Additional languages TR*/
+.ProseMirror:lang(tr) {
+
+  /* Placeholder Styles */
+  .is-empty::before {
+    content: 'Seçenekleri göz atmak için / yazın…';
+  }
+
+  >p.has-focus.is-empty::before {
+    content: 'Seçenekleri gözden geçirmek için / tuşlayın';
+  }
+}
+
+/* Additional languages DE*/
+.ProseMirror:lang(de) {
+
+  /* Placeholder Styles */
+  .is-empty::before {
+    content: 'Klicken Sie hier, um mit dem Schreiben zu beginnen…';
+  }
+
+  >p.has-focus.is-empty::before {
+    content: 'Tippen Sie / ein, um Optionen zu durchsuchen';
+  }
+}

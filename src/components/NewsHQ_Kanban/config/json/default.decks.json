@@ -1,0 +1,79 @@
+{"sources": {
+  "AA": {
+    "filter": false,
+    "filterResult": null,
+    "page": 0,
+    "offScroll": false,
+    "refreshed": false,
+    "firstItem": null,
+    "index": 1,
+    "deckSources": ["AA"],
+    "deckName": "AA"
+  },
+  "APtext": {
+    "filter": false,
+    "filterResult": null,
+    "page": 0,
+    "offScroll": false,
+    "refreshed": false,
+    "firstItem": null,
+    "index": 2,
+    "deckSources": ["APtext"],
+    "deckName": "APtext"
+  },
+  "BreakingNews": {
+    "filter": false,
+    "filterResult": null,
+    "page": 0,
+    "offScroll": false,
+    "refreshed": false,
+    "firstItem": null,
+    "index": 3,
+    "deckSources": ["AA", "APtext", "AP", "AFP", "AFPtext", "Reuterstext"],
+    "deckName": "BreakingNews"
+  },
+  "Reuterstext": {
+    "filter": false,
+    "filterResult": null,
+    "page": 0,
+    "offScroll": false,
+    "refreshed": false,
+    "firstItem": null,
+    "index": 4,
+    "deckSources": ["Reuterstext"],
+    "deckName": "Reuterstext"
+  },
+  "AFP": {
+    "filter": false,
+    "filterResult": null,
+    "page": 0,
+    "offScroll": false,
+    "refreshed": false,
+    "firstItem": null,
+    "index": 5,
+    "deckSources": ["AFPtext"],
+    "deckName": "AFPtext"
+  },
+  "AP": {
+    "filter": false,
+    "filterResult": null,
+    "page": 0,
+    "offScroll": false,
+    "refreshed": false,
+    "firstItem": null,
+    "index": 6,
+    "deckSources": ["AP"],
+    "deckName": "AP"
+  },
+  "Reuters": {
+    "filter": false,
+    "filterResult": null,
+    "page": 0,
+    "offScroll": false,
+    "refreshed": false,
+    "firstItem": null,
+    "index": 7,
+    "deckSources": ["Reuters"],
+    "deckName": "Reuters"
+  }
+}}

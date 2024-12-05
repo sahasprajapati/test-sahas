@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg style="opacity:.3" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!-- Generator: sketchtool 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+  <title>24E0A3FE-CDE7-40D9-BF8D-7D58DC0A7B9E</title>
+  <desc>Created with sketchtool.</desc>
+  <defs>
+    <path d="M19,9 C20.654,9 22,7.654 22,6 C22,4.346 20.654,3 19,3 C17.698,3 16.599,3.838 16.185,5 L2,5 L2,7 L16.185,7 C16.599,8.162 17.698,9 19,9 Z M19,5 C19.551,5 20,5.449 20,6 C20,6.553 19.551,7 19,7 C18.449,7 18,6.553 18,6 C18,5.449 18.449,5 19,5 Z M9,9 C10.302,9 11.401,9.838 11.815,11 L22,11 L22,13 L11.815,13 C11.401,14.162 10.301,15 9,15 C7.699,15 6.599,14.162 6.185,13 L2,13 L2,11 L6.185,11 C6.599,9.838 7.698,9 9,9 Z M9,13 C9.551,13 10,12.553 10,12 C10,11.449 9.551,11 9,11 C8.449,11 8,11.449 8,12 C8,12.553 8.449,13 9,13 Z M19,15 C20.654,15 22,16.346 22,18 C22,19.654 20.654,21 19,21 C17.699,21 16.599,20.162 16.185,19 L2,19 L2,17 L16.185,17 C16.599,15.838 17.698,15 19,15 Z M19,19 C19.551,19 20,18.553 20,18 C20,17.449 19.551,17 19,17 C18.449,17 18,17.449 18,18 C18,18.553 18.449,19 19,19 Z" id="path-1"></path>
+  </defs>
+  <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="Icon/Filter">
+      <rect id="Bounding-Box" x="0" y="0" width="24" height="24"></rect>
+      <mask id="mask-2" fill="white">
+        <use xlink:href="#path-1"></use>
+      </mask>
+      <g id="Mask"></g>
+      <g id="Mixin/Color/Main/Grey" mask="url(#mask-2)" fill="#1e1e1e">
+        <rect id="Rectangle" x="0" y="0" width="100" height="40"></rect>
+      </g>
+    </g>
+  </g>
+</svg>
